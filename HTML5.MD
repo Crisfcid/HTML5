@@ -82,6 +82,18 @@ Hay dos grandes tipos:
 
     < meta name="viewport" content="width=device-width, initial-scale=1.0"> control del tamaño y forma de la ventana grafica: la ventana grafica es el area en la que se puede ver el contenido en el navegador.
 
+    < link rel="stylesheet" href="favicon.ico" type="image/x-icon"> paa que en la pestaña de chrome salga un icono nuestro y no la bola del mundo. Para ello crearemos una carpeta que se llame assets donde meteremos imagenes, etc. Se guarda arrastrando hasta la carpeta de assets en vs code.
+
     < link rel="stylesheet" href="style.css"> es una etiqueta link:css. Un archivo css nos permite aplicar estilos.(ya lo veremos más adelante)
 
+    < script src""></script> para enlazar con un documento js
+
     < title>Document</title> Titulo de nuestra página (lo que sale en la pestaña del navegador como nombre)
+
+Otros atributos que podemos utilizar en head son:
+
+- Description: el contenido es texto e indica la descripcion de la pagina que aparece en buscadores
+- Keywords: el contenido son palabras clave. SOn una lista de palabras clave separadas por coas. Google no la tiene en cuenta.
+- author: el contenido es un nombre e indica el nombre del autor de la página
+- theme-color: el contenido es color. Color en formato hexadecimal de la barra de navegación del navegador.
+- viewport: el contenido son parámetros. Nos indica la región visible del navegador.
