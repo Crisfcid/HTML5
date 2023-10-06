@@ -34,7 +34,7 @@ Para inspeccionar aplicaciones web de Chrome se utiliza devTools. Con tener chro
 ESTRUCTURA DEL DOCUMENTO HTML
 
 Lo primero es crear un repositorio nuevo para cada proyecto.
-Una vez lo hemos creado en el ordenador, creamos un carpeta dentro del repositorio que va a contener un archivo html. (lo llamamos index.html). Todos los ficheros que esten en las carpetas de las sesiones los voy a llamar index.html
+Una vez lo hemos creado en el ordenador, creamos un carpeta dentro del repositorio que va a contener un archivo html. (lo llamamos index.html). Para empezar a escribir codigo, escribimos html y seleccionamos html:5 Todos los ficheros que esten en las carpetas de las sesiones los voy a llamar index.html
 
 <! DOCTYPE html> indica el tipo de documento, en este caso html
 
@@ -61,3 +61,27 @@ SOY UN COMENTARIO
 También se pueden hacer comentarios dentro de HTML. Si lo escribimos tal cual sí se verá en la web (ver donde pone SOY UN COMENTARIO). Si queremos que no se vea lo escribimos así:
 <! -- SOY UN COMENTARIO --> (ver doc index.html)
 
+a. Doctype nos indica que nuestro doc es de tipo html
+b. Etiquetas HTML: tiene dos etiquetas hijas:
+    - head (metadatos): elementos que no se ven dentro del navegador
+    - body: donde estará el contenido que se podrá visualizar en los navegadores
+c. Etiquetas: todas las etiquetas tienen una apertura (< head>) y un cierre (</ head>). Dentro de ellas tenemos el contenido que queremos renderizar.
+
+
+
+ETIQUETAS QUE SE USAN EN LA CABECERA (HEAD)
+No tienen representación o visualización en el contenido que renderiza el navegador. Son meta-información adicional.
+
+Hay dos grandes tipos:
+
+1. RELACIÓN
+2. METADATOS
+
+< head>
+    < meta charset="UTF-8">: indicamos que todo lo que yo escriba estara contemplado en UTF-8 (simbolos que necesito para entenderme en la vida normal: letras, comas, etc)
+
+    < meta name="viewport" content="width=device-width, initial-scale=1.0"> control del tamaño y forma de la ventana grafica: la ventana grafica es el area en la que se puede ver el contenido en el navegador.
+
+    < link rel="stylesheet" href="style.css"> es una etiqueta link:css. Un archivo css nos permite aplicar estilos.(ya lo veremos más adelante)
+
+    < title>Document</title> Titulo de nuestra página (lo que sale en la pestaña del navegador como nombre)
